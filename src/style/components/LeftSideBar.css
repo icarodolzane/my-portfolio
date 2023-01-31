@@ -1,11 +1,13 @@
 .left-sidebar {
-  border: 1px yellow solid ;
   align-items: center;
   background-color:inherit;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   height: 100%;
+  position: fixed;
+  left:0;
+  z-index: 1;
 }
 
 .left-sidebar p {
