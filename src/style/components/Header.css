@@ -84,6 +84,8 @@
   .menu-content{
     display: none;
     background-color: #233554;
+    font-size: 0.8em;
+    top: 10px;
     
   }
 

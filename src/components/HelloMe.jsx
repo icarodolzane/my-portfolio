@@ -8,7 +8,7 @@ class HelloMe extends React.Component {
         <h1>Icaro Dolzane.</h1>
         <h1>I develop stuff for the web.</h1>
         <p className="paragraph">
-          I used to say this to my parents and relatives when they ask me about
+          I usually say this to my parents and relatives when they ask me about
           my job...
         </p>
         <p className="paragraph">
