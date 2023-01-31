@@ -4,7 +4,7 @@
   justify-content: space-between;
   font-size: 1.5em;
   height: 70px;
-  width: 99.5%;
+  width: 100vw;
 }
 
 .logo {
@@ -67,14 +67,22 @@
 { 
   
   .logo{
-    padding: 20px;
+    padding: 8px;
   }
   .my-logo{
-    height: 80px;
-    width: 90px;
+    height: 60px;
+    width: 70px;
   }
   .nav{
     display: none;
+  }
+
+  .header {
+    width: 100vw;
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .my-nav-responsive{
@@ -90,21 +98,16 @@
   }
 
   .menubtn {
-    border: 1px solid white;
-    width: 80px;
-    width: 80px;
-    padding: 10px;
-    margin: 10px;
-    margin-top: 20px;
-  }
-  .menubtn {
     align-items:flex-end;
+    border: none;
     display: flex;
     flex-direction:column;
-    justify-content: center;
-    border: none;
-    height: 80px;
     gap: 15px;
+    height: 80;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 3px;
     width: 80px;
   }
 

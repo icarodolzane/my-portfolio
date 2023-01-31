@@ -49,44 +49,31 @@
   transform: scale(1.2);
 } 
 
+@media (max-width: 400px)
+{ 
+  .about-content{
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    max-width: 390px;
+    padding: 0;
+    gap: 0;
+  }
 
-/* .my-photo img {
-  border-radius: 10px;
-  height: 289px;
-  width: 216px;
+
+.about-text {
+  width: 390px;
+}
+.about-me-text {
+  padding: 5px;
 }
 
-.photo-frame {
-  border:3px solid #64FFDA;
-  border-radius: 10px;
-  height: 295px;
-  width: 222px;
-  position: absolute;
-  z-index: 1;
-  right: calc(39%);
-  bottom: calc(-30%);
-
+.my-photo {
+  margin-bottom: 100px;
 }
 
-
-.photo-border {
-  border-radius: 10px;
-  height: 289px;
-  width: 216px;
-  overflow: hidden;
-  position:absolute;
-  z-index: 2;
-  bottom: -210px;
 }
-
-.photo-border img {
-  transition: all 0.7s ease;
-  max-width: 100%;
-
-}
-
-.photo-border img:hover {
-  transform: scale(1.2);
-} */
 
 

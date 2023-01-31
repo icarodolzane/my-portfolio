@@ -16,23 +16,20 @@
 }
 .hello-me {
   margin-top: 100px;
-  border: 1px yellow solid ;
   align-items: left;
   display: flex;
   flex-direction: column;
   gap: 10px;
   padding: 50px;
-  max-width: 1300px;  
+  width: 1300px;  
   margin-bottom: 150px;
 }
 
 .hello-me p {
   font-size: 1.5em;
-}
-
-.hello-me p:first-child {
   color: #64FFDA;
 }
+
 
 .hello-me h1 {
   font-family: 'Calibre-Bold';
@@ -43,14 +40,12 @@
   color: darkgray;
 }
 
-.hello-me p:nth-child(4) {
+.paragraph p:nth-child(1) {
   color: violet;
 }
 
-.hello-me p:nth-child(5) {
-  color: rgb(210, 206, 206);
-  font-family: 'Calibre-Thim';
-  max-width: 600px;
+.paragraph p:nth-child(2) {
+  width: 600px;
 }
 
 .hello-me .paragraph a {
@@ -91,15 +86,25 @@
     display: none;
   }
 
+  .hello-me {
+    margin: 0;
+    padding: 5px;
+    width: 390px;
+    height: 550px;
+    text-align: center;
+  }
+
   .hello-me h1 {
     font-family: 'Calibre-Bold';
     font-size: 2.5em;
   }
 
-  .hello-me p:nth-child(5) {
-    color: rgb(210, 206, 206);
-    font-family: 'Calibre-Thim';
+  .hello-me p {
     font-size: 1.5em;
-    max-width: 300px;
   }
+
+  .paragraph p:nth-child(2) {
+    width: 390px;
+  }
+
 }

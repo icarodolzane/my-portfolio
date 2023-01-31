@@ -22,8 +22,7 @@ class About extends React.Component {
       <section className='my-photo'>
         <div className='photo-border'>
           <img src={profile_photo} alt="my-profile-pic" />
-        </div>
-        
+        </div>        
       </section>
     </section>);
   }
