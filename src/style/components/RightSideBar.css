@@ -1,11 +1,12 @@
 .right-sidebar {
+  border: 1px yellow solid ;
   align-items: center;
   background-color:inherit;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 100vh;
-  width: 5%;
+  height: 100%;
+  margin-left: -50px;
 }
 
 .right-sidebar p {
@@ -14,4 +15,11 @@
   font-family: 'Calibre-Thim';
   transform: rotate(90deg);
   margin-top: 100px;
+
+}
+
+.line {
+  background-color: lightgrey;
+  width: 1px;
+  height: 50px;
 }

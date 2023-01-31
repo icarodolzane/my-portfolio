@@ -1,0 +1,19 @@
+
+.title {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100px;
+  width: 500px;
+  padding: 5px;
+}
+.title h2 {
+  font-size: 2.5em;
+}
+
+.single-line {
+  background-color: darkgray;
+  width: 330px;
+  height: 1px;
+}

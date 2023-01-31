@@ -1,14 +1,29 @@
 .container {
   display: flex;
   flex-direction: row;
+  width: 100vw;
+  padding: 0;
+
+}
+
+.main-content {
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 .hello-me {
+  margin-top: 100px;
+  border: 1px yellow solid ;
   align-items: left;
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: 90%;
   padding: 50px;
+  max-width: 1300px;  
+  margin-bottom: 150px;
 }
 
 .hello-me p {
@@ -35,7 +50,7 @@
 .hello-me p:nth-child(5) {
   color: rgb(210, 206, 206);
   font-family: 'Calibre-Thim';
-  width: 400px;
+  max-width: 600px;
 }
 
 .hello-me .paragraph a {
