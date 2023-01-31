@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.hello-me {
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 90%;
+  padding: 50px;
+}
+
+.hello-me p {
+  font-size: 0.7em;
+}
+
+.hello-me p:first-child {
+  color: #64FFDA;
+}
+
+.hello-me h1 {
+  font-family: 'Calibre-Bold';
+  font-size: 2.5em;
+}
+
+.hello-me h1:nth-child(3) {
+  color: darkgray;
+}
+
+.hello-me p:nth-child(4) {
+  color: violet;
+}
+
+.hello-me p:nth-child(5) {
+  color: rgb(210, 206, 206);
+  font-family: 'Calibre-Thim';
+  width: 400px;
+}
+
+.hello-me .paragraph a {
+  color: rgb(3, 236, 3);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link {
+  margin-top: 20px;
+}
+
+.projects-link {
+  text-decoration: none;
+  border-radius: 3px;
+  color: #64FFDA;
+  border: #64FFDA solid 1px;
+  font-size: 0.7em;
+  padding: 10px;
+}
+
+.projects-link:hover {
+    background-color: #64FFDA;
+    color: #192220;
+    border: #192220 1px solid;
+}
+
+@media (max-width: 400px)
+{ 
+  .left-sidebar {
+    display: none;
+  }
+
+  .right-sidebar {
+    display: none;
+  }
+}

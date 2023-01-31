@@ -1,0 +1,17 @@
+.right-sidebar {
+  align-items: center;
+  background-color:inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+  width: 5%;
+}
+
+.right-sidebar p {
+  color: lightgrey;
+  font-size: 0.8em;
+  font-family: 'Calibre-Thim';
+  transform: rotate(90deg);
+  margin-top: 100px;
+}

@@ -1,0 +1,14 @@
+@import url(./style/fonts/calibre/fonts.css);
+*{
+  margin: 0;
+  padding: 0;
+  list-style:none;
+  background-color: #0A192F;
+  color: white;
+}
+
+
+@media (max-width: 400px)
+{ 
+  
+}

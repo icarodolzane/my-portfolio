@@ -1,0 +1,24 @@
+.left-sidebar {
+  align-items: center;
+  background-color:inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+  width: 5%;
+}
+
+.left-sidebar p {
+  color: lightgrey;
+  font-size: 0.8em;
+  font-family: 'Calibre-Thim';
+  transform: rotate(90deg);
+  margin-top: 100px;
+
+}
+
+.line {
+  background-color: lightgrey;
+  width: 1px;
+  height: 50px;
+}

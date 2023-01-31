@@ -1,0 +1,180 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 0.8em;
+  height: 50px;
+  width: 99.5%;
+}
+
+.logo {
+  display: flex;
+  padding: 10px;
+}
+
+.my-logo {
+  height: 25px;
+  width: 30px;
+}
+
+.logo:hover {
+  animation: pulse;
+  animation-duration:1.5s;
+}
+
+.nav {
+  align-items: center;
+  display: flex;
+  gap: 50px;
+}
+
+.nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+.header a{
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #64FFDA;
+  border-bottom: 1px solid #64FFDA;
+}
+
+.resume {
+  padding-right: 30px;
+}
+
+.resume a{
+  border: 1px #64FFDA solid;
+  border-radius: 5px;
+  color: #64FFDA;
+  padding: 7px 9px 5px 9px;
+  font-size: 0.9em;
+}
+
+.resume a:hover{
+  background-color: #132b25;
+  opacity: 0.3;
+}
+
+.my-nav-responsive{
+  display: none;
+}
+
+@media (max-width: 400px)
+{ 
+  
+  .logo{
+    padding: 20px;
+  }
+  .my-logo{
+    height: 80px;
+    width: 90px;
+  }
+  .nav{
+    display: none;
+  }
+
+  .my-nav-responsive{
+    display: block;
+  }
+
+  .menu-content{
+    display: none;
+    background-color: #233554;
+    
+  }
+
+  .menubtn {
+    border: 1px solid white;
+    width: 80px;
+    width: 80px;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 20px;
+  }
+  .menubtn {
+    align-items:flex-end;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    border: none;
+    height: 80px;
+    gap: 15px;
+    width: 80px;
+  }
+
+  .dash{
+    background-color: #64FFDA;
+    height: 5px;
+    width: 100%;
+  }
+  .dash:nth-child(2) {
+    width: 80%;
+  }
+  .dash:nth-child(3) {
+    width: 50%;
+  }
+
+  .menu:click .menu-content {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 50px;
+    right: 5px;
+    height: 100%;
+    width: 70%;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .menu:hover .menu-content {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 50px;
+    right: 5px;
+    height: 100%;
+    width: 70%;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .menu-content a {
+    background-color:#233554;
+    font-size: 1.8em;
+    font-family: 'Calibre-Thim'; 
+    color: white;
+    padding: 12px 6px;
+    text-decoration: none;
+    width: 90%;
+    display:block;
+    text-align: center;
+
+  }
+
+  .menu-content a:last-child{
+    border: 1px #64FFDA solid;
+    width: 70%;
+    font-weight: 800;
+    border-radius: 5px;
+    color: #64FFDA;
+  }
+
+  .menu-content a:hover {
+    color: #64FFDA;
+    border-bottom: 1px solid #64FFDA;
+  }
+  
+}
+
