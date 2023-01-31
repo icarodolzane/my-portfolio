@@ -12,7 +12,7 @@
 }
 
 .hello-me p {
-  font-size: 0.7em;
+  font-size: 1.5em;
 }
 
 .hello-me p:first-child {
@@ -21,7 +21,7 @@
 
 .hello-me h1 {
   font-family: 'Calibre-Bold';
-  font-size: 2.5em;
+  font-size: 4.5em;
 }
 
 .hello-me h1:nth-child(3) {
@@ -53,7 +53,7 @@
   border-radius: 3px;
   color: #64FFDA;
   border: #64FFDA solid 1px;
-  font-size: 0.7em;
+  font-size: 1.5em;
   padding: 10px;
 }
 
