@@ -33,7 +33,6 @@ class HelloMe extends React.Component {
             </a>
           </div>
         </section>
-        <About />
       </main>
     );
   }

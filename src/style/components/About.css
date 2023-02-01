@@ -2,6 +2,7 @@
   align-items: center;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 50px;
   width:1300px;
@@ -9,7 +10,17 @@
 }
 
 .about-text {
+  align-items: center;
   width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me-text {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .about-me-text p {
@@ -46,7 +57,29 @@
 
 .photo-border img:hover {
   transform: scale(1.2);
-} 
+}
+
+.skills{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.skills p {
+  text-align: justify;
+}
+
+.techs-list{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.techs-list li {
+  list-style: url('../../images/marker.png');
+}
 
 @media (max-width: 400px)
 { 
@@ -57,13 +90,17 @@
     flex-direction: column;
     width: 100vw;
     max-width: 390px;
-    padding: 0;
-    gap: 0;
+    padding: 5px;
+    height: max-content;
+
   }
 
 
 .about-text {
   width: 390px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 .about-me-text {
   padding: 5px;

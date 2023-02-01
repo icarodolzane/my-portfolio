@@ -11,12 +11,27 @@ class About extends React.Component {
         <Title heading="About Me" />
         <div className='about-me-text'>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptatum in ullam iusto debitis doloremque reiciendis, perferendis, quod sapiente aliquam architecto magnam cupiditate omnis fugiat ad numquam vel? Omnis, perspiciatis?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, beatae doloribus quod ut quasi quas odio sequi. Tempora minus neque ipsum fugit mollitia, architecto numquam quod et aliquam, earum fugiat?
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, cumque quidem eos ab accusantium saepe doloremque, maxime repellendus cupiditate consectetur, minima suscipit molestiae quos illum quam. Id perferendis doloremque voluptatem!
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium aliquid, autem repudiandae incidunt rem quidem delectus fugiat facere molestiae iste ratione saepe optio vel nihil odit, totam obcaecati minima eligendi!
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum inventore labore, esse reprehenderit odit architecto necessitatibus non sapiente? Omnis provident ipsam ad corrupti doloribus ducimus laudantium itaque sed placeat laborum?
+            I'm a frontend developer giving the firsts steps in the dev world. Let me start from the beginning. I have bachelor's degree in business administration and used to work with international logistics, but then I realized that I was not happy and reliant in my future perspectives... My former job was extremely stressful and I became mentally and physically ill. Looking forward to be motivated and happy again I decided to start again to become a Full Stack Developer.
           </p>
+          <div className='skills'>
+            <h2>Technologies I've been working with since then:</h2>
+            <ul className='techs-list'>
+              <li>HTML / CSS</li>
+              <li>JavaScript (ES6+) / Java.</li>
+              <li>Git</li>
+              <li>Linux (Development and User Environment)</li>
+              <li>React / Redux / RTL</li>
+              <li>Bootstrap</li>
+            </ul>
+            <p>
+                Right now I'm exclusively dedicated to finish my Full Stack Web Development course at Trybe and really excited to get my first job position soon.
+            </p>
+          </div>
+          <div className="link">
+            <a className="projects-link" href="/work">
+              Check out my projects!
+            </a>
+          </div>
         </div>
       </section>
       <section className='my-photo'>

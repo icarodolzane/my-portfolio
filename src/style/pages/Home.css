@@ -1,39 +1,41 @@
 .container {
+  height: max-content;
   display: flex;
-  flex-direction: row;
-  width: 100vw;
+  flex-direction: column;
+  gap: 250px;
+  width: max-content;
   padding: 0;
+  position: relative;
+  top: 200px;
 
 }
 
 .main-content {
   align-items: center;
-  margin: 0;
-  padding: 0;
   display: flex;
   flex-direction: column;
+  height: 100%;
   width: 100%;
 }
 .hello-me {
-  margin-top: 100px;
   align-items: left;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  padding: 50px;
-  width: 1300px;  
-  margin-bottom: 150px;
+  gap: 10px; 
 }
 
 .hello-me p {
-  font-size: 1.5em;
   color: #64FFDA;
+  font-size: max(16px, 1.5vw);
+  font-size: min(24px), 1.5vw;
 }
 
 
 .hello-me h1 {
   font-family: 'Calibre-Bold';
-  font-size: 4.5em;
+  font-size: max(50px, 5vw);
+  font-size: min(150px), 10vw;
+
 }
 
 .hello-me h1:nth-child(3) {
@@ -45,7 +47,8 @@
 }
 
 .paragraph p:nth-child(2) {
-  width: 600px;
+  max-width: 600px;
+  word-wrap: break-word; 
 }
 
 .hello-me .paragraph a {
@@ -63,7 +66,7 @@
   border-radius: 3px;
   color: #64FFDA;
   border: #64FFDA solid 1px;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   padding: 10px;
 }
 
@@ -76,7 +79,8 @@
 @media (max-width: 400px)
 { 
   .container{
-    margin-top: 50px;
+    top: 120px;
+    gap: 150px;
   }
   .left-sidebar {
     display: none;

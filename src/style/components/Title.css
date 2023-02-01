@@ -14,7 +14,7 @@
 
 .single-line {
   background-color: darkgray;
-  width: 330px;
+  width: 200px;
   height: 1px;
 }
 
@@ -24,17 +24,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100px;
     width: 380px;
     padding: 5px;
+    gap: 5px;
   }
   .title h2 {
     font-size: 2.5em;
   }
 
   .single-line {
-    background-color: darkgray;
-    width: 250px;
-    height: 1px;
+    display: none;
   }
 }
