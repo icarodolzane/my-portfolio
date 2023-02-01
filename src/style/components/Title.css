@@ -9,12 +9,13 @@
   padding: 5px;
 }
 .title h2 {
-  font-size: 2.5em;
+  font-size: max(34px, 4vw);
+  font-size: min(100px), 8vw;
 }
 
 .single-line {
   background-color: darkgray;
-  width: 200px;
+  width: 100px;
   height: 1px;
 }
 

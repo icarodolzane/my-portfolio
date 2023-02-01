@@ -7,6 +7,24 @@
   color: white;
 }
 
+@media (max-width: 1170px){
+
+  body .left-sidebar {
+    display: none;
+  }
+
+  body .right-sidebar {
+    display: none;
+  }
+}
+
+@media  (max-width: 970px) {
+  body .about-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 
 

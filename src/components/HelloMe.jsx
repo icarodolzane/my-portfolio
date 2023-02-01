@@ -1,5 +1,4 @@
 import React from "react";
-import About from "./About";
 
 class HelloMe extends React.Component {
   render() {
@@ -15,7 +14,7 @@ class HelloMe extends React.Component {
               about my job...
             </p>
             <p>
-              I'm web developer in the beggining of my carrer. Currently, I'm
+              I'm web developer in the beggining of my career. Currently, I'm
               focused in finishing my web development course at{" "}
               <a
                 target="_blank"
@@ -24,7 +23,7 @@ class HelloMe extends React.Component {
               >
                 Trybe
               </a>{" "}
-              and soon to get the opportunity of my first job in the area.
+              and soon getting the opportunity of my first job in the area.
             </p>
           </div>
           <div className="link">
