@@ -29,7 +29,7 @@ class Header extends React.Component {
     return (
       <div>
         <header className="header">
-          <a className="logo" href="/home">
+          <a className="logo" href="/">
             <img className="my-logo" src={myLogo} alt="my-logo" />
           </a>
           { headerResponsive }
