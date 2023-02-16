@@ -1,0 +1,32 @@
+.experience-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 200px;
+}
+
+.experience-text {
+  align-items: center;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+
+.experience-text p {
+  font-size: max(16px, 1.5vw);
+  font-size: min(24px), 2vw;
+  font-family: 'Calibre-Thim';
+  text-align: justify;
+}
+
+.jobs-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.jobs-list li {
+  list-style: url('../../images/marker.png');
+  margin-left: 50px;
+}
