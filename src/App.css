@@ -35,4 +35,21 @@
     padding: 0;
   }
 
+  .project-card-content {
+    background-color: #0A192F;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .project-card-content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .screenshot img {
+    border: 1px solid black;
+    height: 162px;
+    width: 300px;
+  }
+
 }

@@ -21,10 +21,10 @@ export default class ProjectCard extends Component {
           <h2>{ projectName }</h2>
           <p>{ projectDescription }</p>
           <a href={ projectDeployUrl } target="_blank" rel="noreferrer" >
-            <p> Deploy </p>
+            Deploy
           </a>
           <a href={ projectRepoUrl } target="_blank" rel="noreferrer">
-            <p> Repositório - GitHub </p>
+            Repositório - GitHub
           </a>
         </div>
       </div>

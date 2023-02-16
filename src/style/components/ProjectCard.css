@@ -1,15 +1,13 @@
 .project-card-content {
   align-items: center;
-  border: 3px #64FFDA solid;
   border-radius: 5px;
-  background-color: white;
   display: flex;
   flex-direction: row;
   gap: 25px;
-  height: 315px;
+  height: 280px;
   justify-content: center;
   padding: 10px;
-  width: 900px;
+  width: 800px;
 }
 
 .screenshot {
@@ -30,29 +28,59 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  background-color: white;
   color: black;
   height: 262px;
   width: 400px;
 }
 
-.project-details h2 {
-  background-color: white;
-  color: black;
-}
-
 .project-details p {
-  background-color: white;
-  color: black;
+  font-size: 1.5;
   text-align: justify;
 }
 
 .project-details a {
-  margin-left: 10px;
-  font-weight: 700;
+  font-size: 1.3em;
 }
 
-.project-details a p:hover {
-  color: darkgray;
-  text-decoration: underline;
+.project-details a:hover {
+  color: grey;
+  font-size: 1.5em;
+}
+
+
+@media (max-width: 400px)
+{ 
+  a {
+    text-decoration: none;
+  }
+  .project-card-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    width: 370px;
+  }
+  .screenshot img {
+    border: 3px #64FFDA solid;
+    height: 162px;
+    width: 300px;
+  }
+
+  .project-details {
+    gap: 10px;
+  }
+
+  .project-details h2 {
+    align-self: center;
+  }
+  .project-details p{
+    align-self: center;
+    width: 80%;
+    text-align: justify;
+  }
+
+  .project-details a {
+    align-self: center;
+  }
 }

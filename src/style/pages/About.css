@@ -117,6 +117,20 @@
   margin-bottom: 100px;
 }
 
+.techs-list{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.skills h2 {
+  text-align: center;
+}
+
+.techs-list li {
+  list-style: url('../../images/marker.png');
+}
+
 }
 
 

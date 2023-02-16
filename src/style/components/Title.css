@@ -6,7 +6,8 @@
   flex-wrap: nowrap;
   gap: 20px;
   height: 100px;
-  width: 500px;
+  justify-content: center;
+  width: 100%;
   padding: 5px;
 }
 .title h2 {
@@ -32,9 +33,13 @@
   }
   .title h2 {
     font-size: 2.5em;
+    text-align: center;
   }
 
   .single-line {
+    display: none;
+  }
+  .avatar {
     display: none;
   }
 }
