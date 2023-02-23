@@ -49,7 +49,7 @@ class Header extends React.Component {
               </li>
             </ul>
             <div className="resume">
-              <a href="/resume">Resume</a>
+              <a href="https://drive.google.com/file/d/14ZJcAaEidYHR-qW5B0XRQrBfhGczhjK_/view?usp=share_link">Resume</a>
             </div>
           </nav>
         </header>

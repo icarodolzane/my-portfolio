@@ -11,6 +11,7 @@ import About from './pages/About';
 import NotFound from './pages/NotFound';
 import Experience from './pages/Experience';
 import Work from './pages/Work';
+import Contact from './pages/Contact';
 
 const router = createBrowserRouter([
     {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
     {
         path: "/work",
         element: <Work />,
+    },
+    {
+        path: "/contact",
+        element: <Contact />,
     }
 ]);
 

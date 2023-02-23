@@ -39,10 +39,15 @@
     flex-direction: column;
     justify-content: center;
     margin-top: 70px;
+    gap: 1px;
   }
 
   .experience-text {
     padding: 10px;
     width: 90%;
+  }
+
+  .experience-text p {
+    font-size: 1.2em;
   }
 }

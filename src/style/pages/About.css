@@ -98,7 +98,6 @@
     width: 100vw;
     max-width: 390px;
     padding: 5px;
-    height: max-content;
 
   }
 
@@ -107,10 +106,14 @@
   width: 390px;
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 10px;
 }
 .about-me-text {
   padding: 5px;
+}
+
+.about-me-text p {
+  font-size: 1.2em;
 }
 
 .my-photo {
